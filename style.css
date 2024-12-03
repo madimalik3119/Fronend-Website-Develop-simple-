@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content: space-around;
+}
+
+#logo {
+  padding: 4px;
+  margin: 4px;
+}
+
+#links {
+  display: flex;
+  margin: 4px;
+  padding: 12px;
+}
+
+#links li {
+  list-style: none;
+}
+
+#links li a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+}
+
+#search {
+  padding: 12px;
+  margin: 4px;
+}
+
+#search button {
+  padding: 4px;
+  margin: 3px;
+  border-radius: 12px;
+}
+
+#section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  color: rgb(214, 214, 214);
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  align-items: center;
+  width: 55%;
+  padding: 30px;
+  margin-top: 100px;
+  height: 100%;
+}
+
+#image {
+  width: 45%;
+}
+
+#image img {
+  border-radius: 50px;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.left h1 {
+  margin: 5px;
+  margin-top: 13px;
+  padding: 17px;
+}
+
+.left p {
+  margin: 12px;
+}
+
+.left button {
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: black;
+  color: aliceblue;
+  padding: 7px;
+  margin: 6px;
+}
+
+#Hero {
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  color: aliceblue;
+  background-color: rgb(31, 22, 29);
+}
+
+#Hero h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 12px;
+  margin-top: 30px;
+}
+
+#Hero p {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 12px;
+}
+
+#Hero button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+#Part {
+  display: flex;
+  color: white;
+  background: url("/img/images\ \(12\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+
+#Part img {
+  border-radius: 50px;
+  margin-top: 100px;
+  width: 50%;
+}
+#cards {
+  background: url("/img/download\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#card1 {
+  margin: 3px;
+  border-radius: 12px;
+  border: 1px solid rgb(179, 159, 159);
+}
+
+#card1 p {
+  padding: 3px;
+}
+
+#card1 button {
+  padding: 9px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: rgb(50, 116, 94);
+}
+
+#card2 {
+  border-radius: 12px;
+  margin: 3px;
+  border: 1px solid rgb(204, 184, 184);
+}
+
+#card2 p {
+  padding: 3px;
+}
+
+#card2 button {
+  padding: 9px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: rgb(50, 116, 94);
+}
+
+#card3 {
+  margin: 3px;
+  border: 1px solid rgb(177, 151, 151);
+  border-radius: 12px;
+}
+
+#card3 p {
+  padding: 3px;
+}
+
+#card3 button {
+  padding: 9px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: rgb(50, 116, 94);
+}
+
+#card4 {
+  border-radius: 12px;
+  margin: 3px;
+  border: 1px solid rgb(175, 144, 144);
+}
+
+#card4 p {
+  padding: 3px;
+}
+
+#card4 button {
+  background-color: rgb(50, 116, 94);
+  margin: 12px;
+  padding: 9px;
+  border-radius: 12px;
+}
+
+#cardsS {
+  border-radius: 12px;
+  background: url("/img/download\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  justify-content: space-evenly;
+  background-color: rgb(41, 30, 40);
+  color: rgb(154, 159, 163);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.linK {
+  padding: 14px;
+  margin: 12px;
+  list-style: none;
+}
+
+.linK li {
+  padding: 9px;
+  margin: 12px;
+}
+
+.linK li a {
+  color: antiquewhite;
+}
+
+.contact {
+  margin-top: 12px;
+}
+
+.contact h4 {
+  color: aliceblue;
+  padding: 9px;
+  margin: 12px;
+}
+
+.contact p {
+  padding: 9px;
+  margin: 12px;
+}
+
+.searchbar {
+  margin-top: 12px;
+}
+
+.searchbar input {
+  border-radius: 12px;
+  padding: 9px;
+  margin: 12px;
+}
+#LAST {
+  color: aliceblue;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #parent {
+    width: 100%;
+    height: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar,
+  #links {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  #links li {
+    margin: 12px;
+  }
+
+  #search button {
+    padding: 9px;
+    border-radius: 12px;
+  }
+
+  #section {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #section,
+  .left {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #image {
+    width: 60%;
+  }
+
+  #image img {
+    padding: 26px;
+    margin: 20px;
+    width: 100%;
+  }
+
+  #Part {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Part p {
+    height: 23%;
+    width: 100%;
+    align-items: center;
+  }
+  #Part h1 {
+    align-items: center;
+  }
+
+  #Partno p {
+    width: 100%;
+    height: 12px;
+  }
+
+  #Part img {
+    width: 100%;
+    height: 99%;
+  }
+
+  #image img {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+  }
+  #rightpart img {
+    width: 100%;
+  }
+
+  #cards {
+    background: url("/img/download\ \(4\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #cardsS {
+    background: url("/img/download\ \(4\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .links {
+    padding: 4px;
+    margin: 12px;
+  }
+}
